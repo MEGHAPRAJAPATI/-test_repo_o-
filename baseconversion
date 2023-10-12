@@ -1,0 +1,8 @@
+def lettertobase10(string):
+  if string == " " or len(string) == 0:
+    return 0
+  string = string.lower()
+  for i in string :
+    num = ord(i)-96
+    print(f"{i}:{num}")
+lettertobase10("abcd")
