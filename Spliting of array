@@ -1,0 +1,12 @@
+import sys
+def split_array(arr,l,r):
+  mid=(l+r)//2
+  print(f"l={l}: r={r}")
+  if l==r:
+    print("left=right"
+         sys.exist(0)
+  split_array(arr,l,mid)
+  split_array(arr,mid+1,r)
+
+arr=[2,7,8,9,4,3]
+split_array(arr,0,len(arr))
